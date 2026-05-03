@@ -11,7 +11,7 @@ x_values: list[float] = []
 y_values: list[float] = []
 
 for degree in range(0, 361):
-    radians = math.radians(degree)
+    radians: float = math.radians(degree)
     x_values.append(degree)
     y_values.append(math.sin(radians))
 
